@@ -1,0 +1,24 @@
+/* * {
+    border: 1px solid red;
+} */
+
+.h100 {
+    height: 100vh;
+}
+#bg1 {
+    background-image: url('https://wallpapersite.com/images/pages/pic_w/2659.jpg');
+}
+#bg2 {
+    background-image: url('https://www.elsetge.cat/myimg/f/11-114240_iron-man-eating-dunkin-donuts-with-coffee-wallpaper.jpg');
+}
+#bg3 {
+    background-image: url('thor-wp.jpg');
+}
+.bgi {
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+::-webkit-scrollbar {
+    display: none;
+}
