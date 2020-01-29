@@ -1,7 +1,6 @@
 * {
     border: none;
 }
-
 .h100 {
     height: 100vh;
 }
@@ -15,7 +14,7 @@
     background-image: url('thor-wp.jpg');
 }
 #parallax1 {
-    background: linear-gradient(0.25turn, #f02b2b, #ffffff, #2462f3 );
+    background: linear-gradient(0.125turn, #f02b2b, #ffffff,#2462f3 );
     color: black;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
@@ -54,19 +53,17 @@
     }
     #bg1{
         background-image: url('https://vignette.wikia.nocookie.net/marvel-contestofchampions/images/8/89/Red_Skull_portrait.png/revision/latest?cb=20180801024945');
-        
     }
     #bg2{
         background-image: url('https://pbs.twimg.com/profile_images/569330740081344512/7hWG397L_400x400.png');
-        
     }
     #bg3{
         background-image: url('https://pbs.twimg.com/profile_images/378800000596788161/3918bad8a63112981c08d1c85444b347.jpeg');
-        
     }
 }
 @media only screen and (max-width: 425px){
     #parallax1{
+        display: none;
         background: none;
         color: none;
     }
@@ -81,23 +78,21 @@
     }
     #bg1{
         background-image: none;
-        
     }
     #bg2{
         background-image: url('https://pbs.twimg.com/profile_images/569330740081344512/7hWG397L_400x400.png');
-        
     }
     #bg3{
         background-image: url('https://pbs.twimg.com/profile_images/378800000596788161/3918bad8a63112981c08d1c85444b347.jpeg');
-        
     }
-
 }
 @media only screen and (max-width: 375px){
     #parallax1{
+        display: none;
         background: none;
     }
     #parallax2{
+        display: none;
         background: none;
     }
     #parallax3{
@@ -111,19 +106,19 @@
     }
     #bg3{
         background-image: url('https://pbs.twimg.com/profile_images/378800000596788161/3918bad8a63112981c08d1c85444b347.jpeg');
-        
     }
-
 }
 @media only screen and (max-width: 320px){
     #parallax1{
+        display: none;
         background: none;
-        opacity: 1;
     }
     #parallax2{
+        display: none;
         background: none;
     }
     #parallax3{
+        display: none;
         background: none;
     }
     #bg1{
@@ -135,7 +130,6 @@
     #bg3{
         background-image: url('https://vignette.wikia.nocookie.net/marvelcinematicuniverse/images/6/63/97d1d9f934a350cee765c5ac1a466605.jpg/revision/latest?cb=20190527184444');
     }
-
 }
 ::-webkit-scrollbar {
     display: none;
